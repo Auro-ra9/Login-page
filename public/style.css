@@ -1,0 +1,64 @@
+body {
+    background: url('assets/bglogin.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-form-container {
+    height: 100vh;
+
+}
+
+.login-box {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgb(255, 255, 255);
+}
+
+.login-box h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.error-message {
+    color: #ff0000;
+}
+
+.home-page-container {
+    height: 100vh;
+}
+
+.home-page-inner {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 3rem;
+}
+
+/* footer */
+.footer-container {
+    padding: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer-container i {
+    transition: .3s ease-in-out;
+}
+
+.footer-container i:hover {
+    scale: 1.5;
+}
+
